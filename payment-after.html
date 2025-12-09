@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment</title>
+<link rel="stylesheet" href="payment-after.css">
+</head>
+<body>
+
+<div class="wrap">
+
+<h1>Payment</h1>
+
+<div class="nav">
+ <a id="backBtn">← Back</a>
+</div>
+
+<div class="sec">
+<label>Total To Pay</label>
+<div class="totalBox">8000</div>
+</div>
+
+<div class="sec">
+<label>Select Payment Method</label>
+<select id="pm">
+ <option value="">-- choose method --</option>
+ <option value="cod">Cash On Delivery</option>
+ <option value="bank">Bank Transfer</option>
+ <option value="wallet">E-Wallet</option>
+</select>
+</div>
+
+<div id="extra"></div>
+
+<button id="pay">Confirm Payment</button>
+
+<div id="msg"></div>
+
+</div>
+
+<script src="payment-after.js"></script>
+</body>
+</html>
