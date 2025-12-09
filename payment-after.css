@@ -1,0 +1,71 @@
+body{
+ background:#b7c9c9;
+ margin:0;
+ padding:0;
+ font-family:Arial;
+}
+
+.wrap{
+ width:85%;
+ margin:auto;
+ background:#e0e0e0;
+ margin-top:35px;
+ padding:25px;
+ border-radius:15px;
+}
+
+h1{
+ margin-top:5px;
+ margin-bottom:10px;
+}
+
+.nav{
+ margin-bottom:15px;
+}
+
+#backBtn{
+ cursor:pointer;
+ font-size:15px;
+}
+
+.sec{
+ margin-top:15px;
+}
+
+label{
+ font-size:17px;
+ font-weight:600;
+}
+
+.totalBox{
+ background:white;
+ padding:12px;
+ margin-top:8px;
+ width:85%;
+ border-radius:6px;
+}
+
+select, input{
+ width:87%;
+ padding:10px;
+ margin-top:8px;
+ border:1px solid #777;
+ border-radius:7px;
+}
+
+button{
+ margin-top:25px;
+ padding:12px 20px;
+ background:#4caf50;
+ color:white;
+ border:none;
+ border-radius:9px;
+ font-size:17px;
+}
+
+#msg{
+ margin-top:20px;
+ font-size:19px;
+ font-weight:bold;
+ color:#1b7c1b;
+}
